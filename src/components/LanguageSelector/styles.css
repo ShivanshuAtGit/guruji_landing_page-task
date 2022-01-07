@@ -1,0 +1,73 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-btn:hover {
+  outline: none;
+}
+
+.dropdown-btn span {
+  margin-right: 5px;
+}
+
+.dropbox {
+  position: absolute;
+  right: 0;
+  min-width: 14rem;
+  list-style: none;
+  background-color: white;
+  box-shadow: 0px 0px 24px rgb(0 0 0 / 10%);
+  text-align: center;
+  border-radius: 1rem;
+  padding: 2rem 0;
+  transform: translateY(10rem);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s;
+}
+
+.show {
+  transform: translateY(1rem);
+  visibility: visible;
+  opacity: 1;
+}
+
+.polygon {
+  position: absolute;
+  top: -8px;
+  right: 2rem;
+  width: 16px;
+  height: 8px;
+  background: #e0e0e0;
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+
+.polygon::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 14px;
+  height: 8px;
+  background: white;
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+
+.list-item {
+  padding: 0.6rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.list-item:hover {
+  background-color: #eeeeee;
+}
