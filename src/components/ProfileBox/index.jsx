@@ -19,11 +19,11 @@ const ProfileBox = () => {
   return (
     <div className="dropdown">
       <img
-        className="profile"
+        className="profile show-profile"
         onClick={handleClick}
         src="assets/Avatar-small.png"
       />
-      <HiMenu className="menu" />
+      <HiMenu className="menu" onClick={handleClick} />
       <div className={`profile-dropbox ${open ? "show" : null}`}>
         <div className="polygon"></div>
         <div className="profile-header">

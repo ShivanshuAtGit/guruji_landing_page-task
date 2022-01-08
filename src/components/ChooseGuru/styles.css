@@ -1,0 +1,55 @@
+.choose-guru {
+  max-width: 1128px;
+  padding: 0 2rem;
+  margin: 6.4rem auto;
+}
+
+.reason-box {
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.reason-box h2 {
+  margin: 3rem 0;
+}
+
+.reason-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.reason-list li {
+  padding: 0 35px;
+  margin-bottom: 32px;
+  width: 50%;
+  height: 10rem;
+  display: flex;
+}
+
+.reason-box-content {
+  width: 60%;
+  text-align: left;
+  padding: 1rem;
+}
+
+.reason-box-content p {
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .reason-list li {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 35px;
+  }
+
+  .reason-box-content h3 {
+    font-size: 1.8rem;
+  }
+}
