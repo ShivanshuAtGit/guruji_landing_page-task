@@ -1,6 +1,8 @@
 .header {
   max-width: 112.8rem;
   margin: 0 auto;
+  position: relative;
+  z-index: 100;
 }
 
 .navbar {
@@ -37,4 +39,10 @@
 
 .profile {
   border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .header_quote {
+    display: none;
+  }
 }

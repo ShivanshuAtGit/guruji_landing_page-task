@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { HiMenu } from "react-icons/hi";
 import "./styles.css";
 
 const profileList = [
@@ -22,6 +23,7 @@ const ProfileBox = () => {
         onClick={handleClick}
         src="assets/Avatar-small.png"
       />
+      <HiMenu className="menu" />
       <div className={`profile-dropbox ${open ? "show" : null}`}>
         <div className="polygon"></div>
         <div className="profile-header">
