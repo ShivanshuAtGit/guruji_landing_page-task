@@ -1,17 +1,29 @@
 {
   "files": {
     "main.css": "/guruji_landing_page-task/static/css/main.135ab80a.css",
-    "main.js": "/guruji_landing_page-task/static/js/main.6db76d8e.js",
+    "main.js": "/guruji_landing_page-task/static/js/main.1bca06de.js",
     "static/media/grey-wight-YREw6bUXAT8-unsplash.jpg": "/guruji_landing_page-task/static/media/grey-wight-YREw6bUXAT8-unsplash.8f1dcedf72eaf2277eb6.jpg",
     "static/media/banner.png": "/guruji_landing_page-task/static/media/banner.d762c8b41c77d5aadfcf.png",
     "static/media/astrologer-bg.png": "/guruji_landing_page-task/static/media/astrologer-bg.4677c6ad431a81482f29.png",
     "static/media/slidePic.png": "/guruji_landing_page-task/static/media/slidePic.41542ab8b9670858afcb.png",
+    "static/media/image1.png": "/guruji_landing_page-task/static/media/image1.11921a4fa1ff426ccc3e.png",
+    "static/media/image3.png": "/guruji_landing_page-task/static/media/image3.477d4868d078d6ce4fa5.png",
+    "static/media/image2.png": "/guruji_landing_page-task/static/media/image2.8e77a435beaa9c2f7c5e.png",
+    "static/media/reason3.svg": "/guruji_landing_page-task/static/media/reason3.2b07a3ac532bf5ab8a5a886c053fcdcd.svg",
+    "static/media/right3.svg": "/guruji_landing_page-task/static/media/right3.e2c8b3ad6b5a0b922874485033d2e18c.svg",
+    "static/media/right2.svg": "/guruji_landing_page-task/static/media/right2.8229b78c958172c6dc8c9f289cb6168a.svg",
+    "static/media/reason1.svg": "/guruji_landing_page-task/static/media/reason1.838f8219a5a4e2397defb7d15ae818db.svg",
+    "static/media/right1.svg": "/guruji_landing_page-task/static/media/right1.d4452d695f5474e892fb08d8394f2e1c.svg",
+    "static/media/guruji_logo.svg": "/guruji_landing_page-task/static/media/guruji_logo.53ad6e78ff14619c6e07c23e58245725.svg",
+    "static/media/guarantee.svg": "/guruji_landing_page-task/static/media/guarantee.86a1b42fde72278a0b36cee86f720968.svg",
+    "static/media/reason2.svg": "/guruji_landing_page-task/static/media/reason2.124f1e5217d44431143137147dd00fd2.svg",
+    "static/media/reason4.svg": "/guruji_landing_page-task/static/media/reason4.30d6c8a1dbc1b21f8d9fd5aa8930094d.svg",
     "index.html": "/guruji_landing_page-task/index.html",
     "main.135ab80a.css.map": "/guruji_landing_page-task/static/css/main.135ab80a.css.map",
-    "main.6db76d8e.js.map": "/guruji_landing_page-task/static/js/main.6db76d8e.js.map"
+    "main.1bca06de.js.map": "/guruji_landing_page-task/static/js/main.1bca06de.js.map"
   },
   "entrypoints": [
     "static/css/main.135ab80a.css",
-    "static/js/main.6db76d8e.js"
+    "static/js/main.1bca06de.js"
   ]
 }
