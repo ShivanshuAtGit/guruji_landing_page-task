@@ -112,6 +112,7 @@
     cursor: pointer;
     margin: 0 0.5rem;
     border: none;
+    transition: all 0.4s;
   }
 
   .testimony-slider-btn-wrapper button.active-scroll-bar {

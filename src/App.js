@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import WhyAstrology from "./components/WhyAstrology";
 import AstrologerList from "./components/AstrologersList";
 import UserRight from "./components/UserRights";
+import NewsContainer from "./components/NewsContainer";
 
 function App() {
   return <main className="app">
@@ -20,6 +21,7 @@ function App() {
     <HowWorks />
     <AstrologerList />
     <UserRight />
+    <NewsContainer />
   </main>;
 }
 
