@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/guruji_landing_page-task/static/css/main.135ab80a.css",
+    "main.js": "/guruji_landing_page-task/static/js/main.6db76d8e.js",
+    "static/media/grey-wight-YREw6bUXAT8-unsplash.jpg": "/guruji_landing_page-task/static/media/grey-wight-YREw6bUXAT8-unsplash.8f1dcedf72eaf2277eb6.jpg",
+    "static/media/banner.png": "/guruji_landing_page-task/static/media/banner.d762c8b41c77d5aadfcf.png",
+    "static/media/astrologer-bg.png": "/guruji_landing_page-task/static/media/astrologer-bg.4677c6ad431a81482f29.png",
+    "static/media/slidePic.png": "/guruji_landing_page-task/static/media/slidePic.41542ab8b9670858afcb.png",
+    "index.html": "/guruji_landing_page-task/index.html",
+    "main.135ab80a.css.map": "/guruji_landing_page-task/static/css/main.135ab80a.css.map",
+    "main.6db76d8e.js.map": "/guruji_landing_page-task/static/js/main.6db76d8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.135ab80a.css",
+    "static/js/main.6db76d8e.js"
+  ]
+}
