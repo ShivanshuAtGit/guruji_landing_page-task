@@ -7,6 +7,7 @@ import HowWorks from "./components/HowWorks";
 import Header from "./components/Header";
 import WhyAstrology from "./components/WhyAstrology";
 import AstrologerList from "./components/AstrologersList";
+import UserRight from "./components/UserRights";
 
 function App() {
   return <main className="app">
@@ -18,6 +19,7 @@ function App() {
     <GuaranteeBlock />
     <HowWorks />
     <AstrologerList />
+    <UserRight />
   </main>;
 }
 

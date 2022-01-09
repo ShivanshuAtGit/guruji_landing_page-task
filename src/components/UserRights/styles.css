@@ -1,0 +1,25 @@
+.user-right {
+  background-color: #f6f4f8;
+}
+
+.right-container {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 6.4rem 2.4rem;
+  text-align: center;
+}
+
+.right-card-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right-card {
+  width: 30%;
+  margin: 3rem 1rem 0 1rem;
+}
+
+.right-card img {
+  max-width: 100%;
+}
