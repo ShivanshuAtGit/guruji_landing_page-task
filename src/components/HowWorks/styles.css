@@ -1,0 +1,46 @@
+.works-container {
+  padding: 6.4rem 2.4rem;
+  background-color: #f6f4f8;
+  text-align: center;
+}
+
+.works-container > div {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.work-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works-card {
+  width: 27%;
+  margin: 2rem;
+}
+
+.works-card p {
+  color: #707070;
+  margin-top: 1rem;
+  line-height: 2.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .work-card-wrapper {
+    flex-wrap: nowrap;
+    justify-content: start;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  .work-card-wrapper::-webkit-scrollbar {
+    background: transparent; /* make scrollbar transparent */
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+  }
+  .works-card {
+    width: calc(100% - 2rem);
+    flex-shrink: 0;
+    margin: 1rem;
+  }
+}
