@@ -21,8 +21,7 @@ const slideItems = [
   { key: "8", label: "Numerology", sub: "Verified and experience astrologers" },
 ];
 
-const ConsultPage = () => {
-  const [isScenario, setScenario] = useState(false);
+const AstrologerList = () => {
   let scrollWrapperRef = useRef(null);
   const [scrollX, setScrollX] = useState(0);
   const [scrollEnd, setScrollEnd] = useState(false);
@@ -59,27 +58,9 @@ const ConsultPage = () => {
     }
   };
 
-  const handleSelect = () => {
-    setScenario((prev) => !prev);
-  };
-
   return (
-    <section className="consult">
-      <h1>All the problem you can consult and get answer</h1>
-      <div>
-        <button
-          onClick={handleSelect}
-          className={`consult-btn ${isScenario && "active"}`}
-        >
-          Scenario
-        </button>
-        <button
-          onClick={handleSelect}
-          className={`consult-btn ${!isScenario && "active"}`}
-        >
-          Consult methods
-        </button>
-      </div>
+    <section className="astrologer">
+      <h2> Start your first consultation ＠₹5/min</h2>
       <div className="slider">
         {scrollX !== 0 && (
           <button onClick={() => slide(-200)} className="slide-btn prev">
@@ -97,9 +78,21 @@ const ConsultPage = () => {
           onScroll={scrollCheck}
         >
           {slideItems.map((item) => (
-            <li key={item.key} className="slide-cards">
-              <p>{item.label}</p>
-              <p className="sub-para">{item.sub}</p>
+            <li key={item.key} className="astrologer-slide-cards">
+              <div className="profile-background-pic">
+                <img src="/assets/astro-profile.png" alt="profile" />
+              </div>
+              <div className="astro-profile-content">
+                <div>
+                  &#9733; 4.7 <span>(238 Total Count)</span>
+                </div>
+                <p>Swatanwa Astro</p>
+                <span>10+ years</span>
+                <br />
+                <span>Hindi,English,Gujilate</span>
+                <div>₹20/min</div>
+                <span>Est time~12mins</span>
+              </div>
             </li>
           ))}
         </ul>
@@ -108,4 +101,4 @@ const ConsultPage = () => {
   );
 };
 
-export default ConsultPage;
+export default AstrologerList;
