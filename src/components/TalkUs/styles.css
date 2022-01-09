@@ -1,0 +1,21 @@
+.talk-container {
+  max-width: 1128px;
+  margin: 0 auto;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/public/assets/grey-wight-YREw6bUXAT8-unsplash.jpg");
+  padding: 11.25rem 2.4rem 6rem 2.4rem;
+  background-position-x: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.talk-container h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+.banner-btn.talk-btn {
+  display: inline-block;
+}

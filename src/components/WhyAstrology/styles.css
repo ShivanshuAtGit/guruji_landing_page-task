@@ -32,3 +32,16 @@
   margin-bottom: 0;
   margin-top: 4rem;
 }
+
+.why-content .para {
+  opacity: 1;
+  visibility: visible;
+  max-height: 100vh;
+  transition: all 0.4s;
+}
+
+.para.hide-para {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+}

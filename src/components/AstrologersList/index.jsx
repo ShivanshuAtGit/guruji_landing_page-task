@@ -1,5 +1,9 @@
 import React, { useState, useRef } from "react";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import {
+  MdKeyboardArrowLeft,
+  MdKeyboardArrowRight,
+  MdEast,
+} from "react-icons/md";
 import "./styles.css";
 
 const slideItems = [
@@ -95,6 +99,11 @@ const AstrologerList = () => {
               </div>
             </li>
           ))}
+          <li className="more-option-card">
+            <button>
+              See more <MdEast />
+            </button>
+          </li>
         </ul>
       </div>
     </section>
