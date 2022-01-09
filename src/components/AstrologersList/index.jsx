@@ -4,6 +4,7 @@ import {
   MdKeyboardArrowRight,
   MdEast,
 } from "react-icons/md";
+import astro_profile from "../../Assets/astro-profile.png";
 import "./styles.css";
 
 const slideItems = [
@@ -84,7 +85,7 @@ const AstrologerList = () => {
           {slideItems.map((item) => (
             <li key={item.key} className="astrologer-slide-cards">
               <div className="profile-background-pic">
-                <img src="/assets/astro-profile.png" alt="profile" />
+                <img src={astro_profile} alt="profile" />
               </div>
               <div className="astro-profile-content">
                 <div>

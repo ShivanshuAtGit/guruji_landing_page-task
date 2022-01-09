@@ -1,6 +1,7 @@
 import React from "react";
 import LanguageSelector from "../LanguageSelector";
 import ProfileBox from "../ProfileBox";
+import guruji_logo from "../../Assets/guruji_logo.svg";
 import "./styles.css";
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
     <header className="header">
       <nav className="navbar">
         <div className="header_orders">
-          <img src="assets/guruji_logo.svg" alt="Guruji" className="logo" />
+          <img src={guruji_logo} alt="Guruji" className="logo" />
           <span className="header_quote">Talk with astrologers</span>
         </div>
         <div className="header_orders">

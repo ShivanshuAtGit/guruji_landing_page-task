@@ -1,4 +1,7 @@
 import React, { useRef, useState } from "react";
+import guarantee_logo from "../../Assets/guarantee.svg";
+import reviewRating from "../../Assets/review-rating.png";
+import profile from "../../Assets/profile.png";
 import "./styles.css";
 const cards = [0, 1, 2, 3];
 let clear;
@@ -33,11 +36,7 @@ const GuaranteeBlock = () => {
 
   return (
     <div className="guarantee-block">
-      <img
-        className="guarantee-img"
-        src="/assets/guarantee.svg"
-        alt="guarantee"
-      />
+      <img className="guarantee-img" src={guarantee_logo} alt="guarantee" />
       <h2>100% Satisfaction guarantee</h2>
       <p>
         If you are not satisfied by your consultation. We promise you to refund
@@ -50,17 +49,13 @@ const GuaranteeBlock = () => {
       >
         {cards.map((item) => (
           <li key={item} className="review-card">
-            <img
-              src="/assets/profile.png"
-              className="review-profile-pic"
-              alt="profile"
-            />
+            <img src={profile} className="review-profile-pic" alt="profile" />
             <div className="review-card-content">
               <p className="card-name">
                 Swatanwa Astro to <a href="#">Exporu U</a>
               </p>
               <div className="review-rating">
-                <img src="/assets/review-rating.png" alt="star" />
+                <img src={reviewRating} alt="star" />
                 <span>August 25th 2021</span>
               </div>
               <p className="review-testimony">

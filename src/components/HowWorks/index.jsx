@@ -1,4 +1,7 @@
 import React, { useRef, useState } from "react";
+import image1 from "../../Assets/image1.png";
+import image2 from "../../Assets/image2.png";
+import image3 from "../../Assets/image3.png";
 import "./styles.css";
 
 const cards = [0, 1, 2];
@@ -43,7 +46,7 @@ const HowWorks = () => {
           onScroll={scrollCheck}
         >
           <div className="works-card">
-            <img src="/assets/image1.png" alt="img1" />
+            <img src={image1} alt="img1" />
             <h3>Find your Guruji</h3>
             <p>
               Browse astrologers and check their skills, specialties and
@@ -52,7 +55,7 @@ const HowWorks = () => {
           </div>
 
           <div className="works-card">
-            <img src="/assets/image3.png" alt="img1" />
+            <img src={image2} alt="img1" />
             <h3>Recharge for Consultation</h3>
             <p>
               After recharge, you can have the new user offer: ₹5/min and MAX 6
@@ -61,7 +64,7 @@ const HowWorks = () => {
           </div>
 
           <div className="works-card">
-            <img src="/assets/image3.png" alt="img1" />
+            <img src={image3} alt="img1" />
             <h3>Solve problem with astrologers</h3>
             <p>
               Call and Ask astrologers your problems. By providing your birth

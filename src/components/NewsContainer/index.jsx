@@ -1,4 +1,7 @@
 import React, { useRef, useState } from "react";
+import newsLogo from "../../Assets/news.png";
+import news1Logo from "../../Assets/news1.png";
+import news2Logo from "../../Assets/news2.png";
 import "./styles.css";
 
 const cards = [0, 1, 2];
@@ -44,53 +47,53 @@ const NewsContainer = () => {
       >
         <div className="news-cards-wrapper">
           <div className="news-card">
-            <img src="/assets/news.png" alt="news-icon" />
+            <img src={newsLogo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news1.png" alt="news-icon" />
+            <img src={news1Logo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news2.png" alt="news-icon" />
+            <img src={news2Logo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news.png" alt="news-icon" />
+            <img src={newsLogo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news1.png" alt="news-icon" />
+            <img src={news1Logo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news2.png" alt="news-icon" />
+            <img src={news2Logo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
         </div>
         <div className="news-cards-wrapper">
           <div className="news-card">
-            <img src="/assets/news2.png" alt="news-icon" />
+            <img src={news2Logo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news.png" alt="news-icon" />
+            <img src={newsLogo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news1.png" alt="news-icon" />
+            <img src={news1Logo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news2.png" alt="news-icon" />
+            <img src={news2Logo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news.png" alt="news-icon" />
+            <img src={newsLogo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
           <div className="news-card">
-            <img src="/assets/news1.png" alt="news-icon" />
+            <img src={news1Logo} alt="news-icon" />
             <p>&#127942; Jan 7, 2021</p>
           </div>
         </div>

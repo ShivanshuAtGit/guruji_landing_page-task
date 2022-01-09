@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { HiMenu } from "react-icons/hi";
+import smallAvatar from "../../Assets/Avatar-small.png";
+import avatar from "../../Assets/Avatar.png";
 import "./styles.css";
 
 const profileList = [
@@ -21,13 +23,13 @@ const ProfileBox = () => {
       <img
         className="profile show-profile"
         onClick={handleClick}
-        src="assets/Avatar-small.png"
+        src={smallAvatar}
       />
       <HiMenu className="menu" onClick={handleClick} />
       <div className={`profile-dropbox ${open ? "show" : null}`}>
         <div className="polygon"></div>
         <div className="profile-header">
-          <img className="profile" src="assets/Avatar.png" />
+          <img className="profile" src={avatar} />
           <p>Philpy</p>
         </div>
         <ul className="list">

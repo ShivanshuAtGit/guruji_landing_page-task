@@ -1,4 +1,7 @@
 import React from "react";
+import right1Logo from "../../Assets/right1.svg";
+import right2Logo from "../../Assets/right2.svg";
+import right3Logo from "../../Assets/right3.svg";
 import "./styles.css";
 
 const UserRight = () => {
@@ -8,15 +11,15 @@ const UserRight = () => {
         <h2>We protect the rights of users</h2>
         <div className="right-card-list">
           <div className="right-card">
-            <img src="/assets/right1.svg" alt="right" />
+            <img src={right1Logo} alt="right" />
             <p>Refund if unsatisfied</p>
           </div>
           <div className="right-card">
-            <img src="/assets/right2.svg" alt="right" />
+            <img src={right2Logo} alt="right" />
             <p>Refund if unsatisfied</p>
           </div>
           <div className="right-card">
-            <img src="/assets/right3.svg" alt="right" />
+            <img src={right3Logo} alt="right" />
             <p>Refund if unsatisfied</p>
           </div>
         </div>
