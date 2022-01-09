@@ -1,0 +1,121 @@
+.guarantee-block {
+  text-align: center;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 2.4rem 0;
+}
+
+.guarantee-img {
+  max-width: 100%;
+  margin: 0 2.4rem;
+}
+
+.guarantee-block > p {
+  margin: 2rem 2.4rem 0 2.4rem;
+}
+
+.review-card-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.review-card {
+  width: 45%;
+  margin: 1rem;
+  padding: 32px 24px 24px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  display: flex;
+  text-align: start;
+}
+
+.review-profile-pic {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+}
+
+.review-card-content {
+  padding-left: 2rem;
+}
+
+.review-card-content.card-name a {
+  color: #965efb;
+}
+
+.review-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 5px;
+}
+
+.review-rating span {
+  font-size: 1.2rem;
+  color: #333333;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.review-testimony {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #333333;
+}
+
+.review-rating img {
+  max-width: 80%;
+}
+
+.review-btn {
+  background-color: white;
+  color: #b373ff;
+  border: 1px solid #b373ff;
+  border-radius: 50px;
+  padding: 4px 1.2rem;
+  margin: 2rem 1rem 0 0;
+  cursor: pointer;
+}
+
+.testimony-slider-btn-wrapper button {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .review-card-list {
+    flex-wrap: nowrap;
+    justify-content: start;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  .review-card-list::-webkit-scrollbar {
+    background: transparent; /* make scrollbar transparent */
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+  }
+  .review-card {
+    width: calc(100% - 2rem);
+    flex-shrink: 0;
+    margin: 1rem;
+  }
+
+  .testimony-slider-btn-wrapper button {
+    display: inline-block;
+    height: 3px;
+    width: 2rem;
+    background-color: rgba(150, 94, 251, 0.5);
+    cursor: pointer;
+    margin: 0 0.5rem;
+    border: none;
+  }
+
+  .testimony-slider-btn-wrapper button.active-scroll-bar {
+    background-color: rgba(150, 94, 251, 1);
+    width: 3rem;
+  }
+}
